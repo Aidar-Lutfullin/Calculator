@@ -51,6 +51,7 @@ body {
   height: 70px;
   margin-top: 40px;
   margin-bottom: 15px;
+  padding: 0 20px;
   background-color: #e6e6e6;
   border: none;
   font-family: Arial, Helvetica, sans-serif;
@@ -72,12 +73,12 @@ body {
 
 .button-last-del,
 .button-all-del,
-.button-equals {
+.button-equal {
   width: 145px;
   height: 70px;
 }
 
-.button-equals {
+.button-equal {
   width: 220px;
   height: 70px;
   background-color: #e99862;
@@ -85,4 +86,32 @@ body {
 
 .number {
   background-color: #6babbb;
+}
+
+/* ------@media------ */
+
+@media (max-width: 365px) {
+  .box__form {
+    width: 305px;
+  }
+
+  .input {
+    width: 285px;
+  }
+
+  .button {
+    width: 65px;
+    height: 65px;
+  }
+
+  .button-last-del,
+  .button-all-del,
+  .button-equal {
+    width: 138px;
+    height: 70px;
+  }
+
+  .button-equal {
+    width: 208px;
+  }
 }
